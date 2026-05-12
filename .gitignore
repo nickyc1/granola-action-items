@@ -1,0 +1,11 @@
+data/
+output/
+config/people.json
+state.json
+.DS_Store
+.vscode/
+.idea/
+*.swp
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,8 @@
+{
+  "_comment": "Map names (and nicknames) to Slack user IDs. Copy this file to people.json and edit. The skill matches case-insensitively and supports fuzzy first-name lookups.",
+  "alice": "U0ABCDEF123",
+  "alice nguyen": "U0ABCDEF123",
+  "bob": "U0BCDEFG234",
+  "bob martinez": "U0BCDEFG234",
+  "charlie": "U0CDEFGH345"
+}
