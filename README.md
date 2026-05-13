@@ -1,5 +1,9 @@
 # granola-action-items
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+
+
 A [Claude Code](https://claude.com/claude-code) skill that turns your Granola meeting recordings into a tracked action-item system with daily briefings.
 
 [Granola](https://granola.ai) records and transcribes your meetings. This skill reads Granola's local cache, extracts the action items, tracks them across days, and surfaces what's due, what's overdue, and what's gone stale on your radar.
