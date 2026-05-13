@@ -185,3 +185,13 @@ When processing a new meeting transcript:
 | No new meetings | Normal. Just update `last_checked`. |
 | Empty panels / transcript | Meeting may still be in progress. Skip and check next cycle. |
 | Parse errors | Log to stderr, do not crash the monitoring loop. |
+
+## Related skills
+
+| Skill | Relationship |
+|---|---|
+| [`paid-ads-context`](https://github.com/nickyc1/paid-ads-context) | Reads section 6 (approval policy) for which Slack channels action items route to |
+| [`weekly-ops-review`](https://github.com/nickyc1/weekly-ops-review) | Action items from this skill surface as "Asks for the team" in the weekly review |
+| [`customer-research`](https://github.com/nickyc1/customer-research) | Customer interview meetings parsed by this skill feed back into the research synthesis |
+| [`social-publish-guardrails`](https://github.com/nickyc1/social-publish-guardrails) | An "approve the post" action item in a meeting can trigger the publish skill's approval flag |
+| [`n8n-recipes`](https://github.com/nickyc1/n8n-recipes) | The `granola-meeting-to-slack` recipe wraps this skill in an n8n workflow with notification delivery |
